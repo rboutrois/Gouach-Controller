@@ -4049,7 +4049,7 @@
   )
 
   (module LEDs:LED_0805 (layer F.Cu) (tedit 59959803) (tstamp 5E4D45E6)
-    (at 150.998 76.335)
+    (at 150.7 76.3)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53FC6A60)
