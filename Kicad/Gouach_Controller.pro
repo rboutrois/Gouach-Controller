@@ -1,4 +1,4 @@
-update=20/02/2020 15:54:22
+update=03/03/2020 15:33:22
 version=1
 last_client=kicad
 [general]
@@ -11,16 +11,6 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -42,7 +32,8 @@ TrackWidth2=0.254
 TrackWidth3=0.508
 TrackWidth4=1.016
 TrackWidth5=1.27
-TrackWidth6=5.08
+TrackWidth6=1.8
+TrackWidth7=5.08
 ViaDiameter1=0.5
 ViaDrill1=0.3
 ViaDiameter2=0.5
@@ -81,11 +72,11 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=GND
+Name=In1.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=GND2
+Name=In2.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
@@ -254,3 +245,13 @@ uViaDrill=0.127
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/01 - Travail/10 - Divers/KiCad/Templates/KiCad_Sheet_Template-B3.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
