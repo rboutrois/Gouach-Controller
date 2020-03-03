@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 8
 Title "Gouach Controller"
 Date "2020-02-03"
 Rev "1"
@@ -170,6 +170,7 @@ F 0 "C5" H 5600 4300 50  0000 L CNN
 F 1 "4.7nF" H 5600 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5550 4200 60  0001 C CNN
 F 3 "" H 5550 4200 60  0001 C CNN
+F 4 "6.3V" H 5550 4200 50  0001 C CNN "Tension"
 	1    5550 4200
 	1    0    0    -1  
 $EndComp
@@ -197,6 +198,7 @@ F 0 "C8" H 6350 4300 50  0000 L CNN
 F 1 "4.7nF" H 6350 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6300 4200 60  0001 C CNN
 F 3 "" H 6300 4200 60  0001 C CNN
+F 4 "6.3V" H 6300 4200 50  0001 C CNN "Tension"
 	1    6300 4200
 	1    0    0    -1  
 $EndComp
@@ -210,6 +212,7 @@ F 0 "C7" H 6100 4300 50  0000 L CNN
 F 1 "4.7nF" H 6100 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6050 4200 60  0001 C CNN
 F 3 "" H 6050 4200 60  0001 C CNN
+F 4 "6.3V" H 6050 4200 50  0001 C CNN "Tension"
 	1    6050 4200
 	1    0    0    -1  
 $EndComp
@@ -223,6 +226,7 @@ F 0 "C6" H 5850 4300 50  0000 L CNN
 F 1 "4.7nF" H 5850 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5800 4200 60  0001 C CNN
 F 3 "" H 5800 4200 60  0001 C CNN
+F 4 "6.3V" H 5800 4200 50  0001 C CNN "Tension"
 	1    5800 4200
 	1    0    0    -1  
 $EndComp

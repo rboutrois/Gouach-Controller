@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title "Gouach Controller"
 Date "2020-02-03"
 Rev "1"
@@ -34,6 +34,7 @@ F 0 "C1" H 5750 4300 50  0000 L CNN
 F 1 "2.2uF" H 5756 4115 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5788 4050 30  0001 C CNN
 F 3 "" H 5750 4200 60  0000 C CNN
+F 4 "25V" H 5750 4200 50  0001 C CNN "Tension"
 	1    5750 4200
 	1    0    0    -1  
 $EndComp
