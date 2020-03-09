@@ -1,5 +1,7 @@
 # Gouach controller
 
+![rendering](https://github.com/rboutrois/Gouach-Controller/blob/master/rendering.png)
+
 ## Peripherals pinout
 ### Throttle
 - +5V
