@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Gouach-Controller)(type KiCad)(uri ${KIPRJMOD}/libraries/Gouach-Controller.pretty)(options "")(descr ""))
+)
