@@ -11,10 +11,12 @@
 
   (page A4)
   (title_block
-    (title "BLDC Driver 4.6")
-    (date "30 Aug 2014")
+    (title "Gouach Controller")
+    (date 2020-02-03)
     (rev A)
-    (company "Benjamin Vedder")
+    (company "Romain Boutrois")
+    (comment 1 "From Benjamin Vedder")
+    (comment 2 "Based on VESC 4.12")
   )
 
   (layers
