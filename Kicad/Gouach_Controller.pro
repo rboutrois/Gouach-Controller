@@ -1,4 +1,4 @@
-update=03/03/2020 15:33:22
+update=09/03/2020 17:19:18
 version=1
 last_client=kicad
 [general]
@@ -11,9 +11,19 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/01 - Travail/10 - Divers/KiCad/Templates/KiCad_Sheet_Template-B3.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=D:/01 - Travail/10 - Divers/KiCad/Templates/KiCad_Sheet_Template-B3.kicad_wks
 LastNetListRead=Gouach_Controller.net
 CopperLayerCount=4
 BoardThickness=1.6
@@ -21,7 +31,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.2032
+MinTrackWidth=0
 MinViaDiameter=0.5
 MinViaDrill=0.3
 MinMicroViaDiameter=0.508
@@ -66,7 +76,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -245,13 +255,3 @@ uViaDrill=0.127
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=D:/01 - Travail/10 - Divers/KiCad/Templates/KiCad_Sheet_Template-B3.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
