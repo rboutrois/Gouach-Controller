@@ -14,172 +14,172 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R13
+L Gouach_Controller-rescue:R-Device R13
 U 1 1 53F8E60B
 P 7250 4150
 F 0 "R13" V 7350 4150 50  0000 C CNN
 F 1 "39k" V 7250 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 7250 4150 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7250 4150 60  0001 C CNN
 F 3 "" H 7250 4150 60  0001 C CNN
 	1    7250 4150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R7
+L Gouach_Controller-rescue:R-Device R7
 U 1 1 53F8E612
 P 4100 4150
 F 0 "R7" V 4200 4150 50  0000 C CNN
 F 1 "39k" V 4100 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 4100 4150 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4100 4150 60  0001 C CNN
 F 3 "" H 4100 4150 60  0001 C CNN
 	1    4100 4150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q1
+L Gouach_Controller-rescue:Q_NMOS_GDS-Device Q1
 U 1 1 53F8E63D
 P 4200 2900
 F 0 "Q1" H 4210 3070 60  0000 R CNN
 F 1 "IRFB7530" V 4450 3100 60  0000 R CNN
-F 2 "Romain:TO-220-3_Horizontal" H 4200 2900 60  0001 C CNN
+F 2 "Gouach-Controller:TO-220-3_Horizontal" H 4200 2900 60  0001 C CNN
 F 3 "IRFB7530" H 4200 2900 60  0001 C CNN
 F 4 "IRFB7530" H 4200 2900 50  0001 C CNN "mfg#"
 	1    4200 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q2
+L Gouach_Controller-rescue:Q_NMOS_GDS-Device Q2
 U 1 1 53F8E644
 P 4200 3850
 F 0 "Q2" H 4210 4020 60  0000 R CNN
 F 1 "IRFB7530" V 4450 4050 60  0000 R CNN
-F 2 "Romain:TO-220-3_Horizontal" H 4200 3850 60  0001 C CNN
+F 2 "Gouach-Controller:TO-220-3_Horizontal" H 4200 3850 60  0001 C CNN
 F 3 "IRFB7530" H 4200 3850 60  0001 C CNN
 F 4 "IRFB7530" H 4200 3850 50  0001 C CNN "mfg#"
 	1    4200 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Gouach_Controller-rescue:R-Device R2
 U 1 1 53F8E64B
 P 3650 3850
 F 0 "R2" V 3750 3850 50  0000 C CNN
 F 1 "4R7" V 3650 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 3650 3850 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 3850 60  0001 C CNN
 F 3 "" H 3650 3850 60  0001 C CNN
 	1    3650 3850
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R1
+L Gouach_Controller-rescue:R-Device R1
 U 1 1 53F8E652
 P 3650 2900
 F 0 "R1" V 3750 2900 50  0000 C CNN
 F 1 "4R7" V 3650 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 3650 2900 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 2900 60  0001 C CNN
 F 3 "" H 3650 2900 60  0001 C CNN
 	1    3650 2900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R8
+L Gouach_Controller-rescue:R-Device R8
 U 1 1 53F8E65E
 P 5200 2900
 F 0 "R8" V 5300 2900 50  0000 C CNN
 F 1 "4R7" V 5200 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5200 2900 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 2900 60  0001 C CNN
 F 3 "" H 5200 2900 60  0001 C CNN
 	1    5200 2900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R9
+L Gouach_Controller-rescue:R-Device R9
 U 1 1 53F8E665
 P 5200 3850
 F 0 "R9" V 5300 3850 50  0000 C CNN
 F 1 "4R7" V 5200 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5200 3850 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 3850 60  0001 C CNN
 F 3 "" H 5200 3850 60  0001 C CNN
 	1    5200 3850
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q4
+L Gouach_Controller-rescue:Q_NMOS_GDS-Device Q4
 U 1 1 53F8E66C
 P 5750 3850
 F 0 "Q4" H 5760 4020 60  0000 R CNN
 F 1 "IRFB7530" V 6000 4050 60  0000 R CNN
-F 2 "Romain:TO-220-3_Horizontal" H 5750 3850 60  0001 C CNN
+F 2 "Gouach-Controller:TO-220-3_Horizontal" H 5750 3850 60  0001 C CNN
 F 3 "IRFB7530" H 5750 3850 60  0001 C CNN
 F 4 "IRFB7530" H 5750 3850 50  0001 C CNN "mfg#"
 	1    5750 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q3
+L Gouach_Controller-rescue:Q_NMOS_GDS-Device Q3
 U 1 1 53F8E673
 P 5750 2900
 F 0 "Q3" H 5760 3070 60  0000 R CNN
 F 1 "IRFB7530" V 6000 3100 60  0000 R CNN
-F 2 "Romain:TO-220-3_Horizontal" H 5750 2900 60  0001 C CNN
+F 2 "Gouach-Controller:TO-220-3_Horizontal" H 5750 2900 60  0001 C CNN
 F 3 "IRFB7530" H 5750 2900 60  0001 C CNN
 F 4 "IRFB7530" H 5750 2900 50  0001 C CNN "mfg#"
 	1    5750 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q5
+L Gouach_Controller-rescue:Q_NMOS_GDS-Device Q5
 U 1 1 53F8E67A
 P 7350 2900
 F 0 "Q5" H 7360 3070 60  0000 R CNN
 F 1 "IRFB7530" V 7600 3100 60  0000 R CNN
-F 2 "Romain:TO-220-3_Horizontal" H 7350 2900 60  0001 C CNN
+F 2 "Gouach-Controller:TO-220-3_Horizontal" H 7350 2900 60  0001 C CNN
 F 3 "IRFB7530" H 7350 2900 60  0001 C CNN
 F 4 "IRFB7530" H 7350 2900 50  0001 C CNN "mfg#"
 	1    7350 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q6
+L Gouach_Controller-rescue:Q_NMOS_GDS-Device Q6
 U 1 1 53F8E681
 P 7350 3850
 F 0 "Q6" H 7360 4020 60  0000 R CNN
 F 1 "IRFB7530" V 7600 4050 60  0000 R CNN
-F 2 "Romain:TO-220-3_Horizontal" H 7350 3850 60  0001 C CNN
+F 2 "Gouach-Controller:TO-220-3_Horizontal" H 7350 3850 60  0001 C CNN
 F 3 "IRFB7530" H 7350 3850 60  0001 C CNN
 F 4 "IRFB7530" H 7350 3850 50  0001 C CNN "mfg#"
 	1    7350 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L Gouach_Controller-rescue:R-Device R12
 U 1 1 53F8E688
 P 6800 3850
 F 0 "R12" V 6900 3850 50  0000 C CNN
 F 1 "4R7" V 6800 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 6800 3850 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6800 3850 60  0001 C CNN
 F 3 "" H 6800 3850 60  0001 C CNN
 	1    6800 3850
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R11
+L Gouach_Controller-rescue:R-Device R11
 U 1 1 53F8E68F
 P 6800 2900
 F 0 "R11" V 6900 2900 50  0000 C CNN
 F 1 "4R7" V 6800 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 6800 2900 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6800 2900 60  0001 C CNN
 F 3 "" H 6800 2900 60  0001 C CNN
 	1    6800 2900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R10
+L Gouach_Controller-rescue:R-Device R10
 U 1 1 53F8E69C
 P 5200 4150
 F 0 "R10" V 5100 4150 50  0000 C CNN
 F 1 "39k" V 5200 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5200 4150 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 4150 60  0001 C CNN
 F 3 "" H 5200 4150 60  0001 C CNN
 	1    5200 4150
 	0    -1   -1   0   
@@ -319,7 +319,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 4150 7100 4150
 $Comp
-L power:+BATT #PWR0126
+L Gouach_Controller-rescue:+BATT-power #PWR0126
 U 1 1 5F21FCD0
 P 4300 2400
 F 0 "#PWR0126" H 4300 2250 50  0001 C CNN

@@ -14,32 +14,32 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R15
+L Gouach_Controller-rescue:R-Device R15
 U 1 1 5426DAA6
 P 6000 4200
 F 0 "R15" V 6000 4200 50  0000 C CNN
 F 1 "10k" V 6100 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5930 4200 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 4200 30  0001 C CNN
 F 3 "" H 6000 4200 30  0000 C CNN
 	1    6000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L Gouach_Controller-rescue:C-Device C1
 U 1 1 5426DADD
 P 5750 4200
 AR Path="/5426DADD" Ref="C1"  Part="1" 
 AR Path="/53FFB3E2/5426DADD" Ref="C1"  Part="1" 
 F 0 "C1" H 5750 4300 50  0000 L CNN
 F 1 "2.2uF" H 5756 4115 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5788 4050 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 4050 30  0001 C CNN
 F 3 "" H 5750 4200 60  0000 C CNN
 F 4 "25V" H 5750 4200 50  0001 C CNN "Tension"
 	1    5750 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L Gouach_Controller-rescue:GND-power #PWR0102
 U 1 1 5426DB25
 P 6000 4450
 F 0 "#PWR0102" H 6000 4450 30  0001 C CNN
@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3600 6000 3650
 $Comp
-L power:+3V3 #PWR0127
+L Gouach_Controller-rescue:+3V3-power #PWR0127
 U 1 1 5F1769E4
 P 6000 3600
 F 0 "#PWR0127" H 6000 3450 50  0001 C CNN
@@ -85,12 +85,12 @@ F 3 "" H 6000 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R14
+L Gouach_Controller-rescue:R-Device R14
 U 1 1 5426DA2F
 P 6000 3800
 F 0 "R14" V 6000 3800 50  0000 C CNN
 F 1 "NTC 10k" V 6100 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5930 3800 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 3800 30  0001 C CNN
 F 3 "" H 6000 3800 30  0000 C CNN
 	1    6000 3800
 	1    0    0    -1  

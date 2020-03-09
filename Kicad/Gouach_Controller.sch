@@ -14,23 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R4
+L Gouach_Controller-rescue:R-Device R4
 U 1 1 522DA0D4
 P 6900 1750
 F 0 "R4" V 6850 1550 50  0000 C CNN
 F 1 "2k2" V 6900 1750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 6900 1750 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 1750 60  0001 C CNN
 F 3 "" H 6900 1750 60  0001 C CNN
 	1    6900 1750
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L Gouach_Controller-rescue:R-Device R3
 U 1 1 522DA0DA
 P 6900 1650
 F 0 "R3" V 6850 1450 50  0000 C CNN
 F 1 "39k" V 6900 1650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 6900 1650 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 1650 60  0001 C CNN
 F 3 "" H 6900 1650 60  0001 C CNN
 	1    6900 1650
 	0    1    1    0   
@@ -57,56 +57,56 @@ F15 "PHASE_2" O R 10050 3000 60
 F16 "PHASE_3" O R 10050 3550 60 
 $EndSheet
 $Comp
-L conn:Conn_01x01 J5
+L Gouach_Controller-rescue:Conn_01x01-conn J5
 U 1 1 53FA5B63
 P 9050 1450
 F 0 "J5" H 9130 1450 50  0000 L CNN
-F 1 "IN-" H 9050 1505 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_Pad_Via" H 9050 1450 60  0001 C CNN
+F 1 "BAT-" H 9050 1505 30  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 9050 1450 60  0001 C CNN
 F 3 "" H 9050 1450 60  0001 C CNN
 	1    9050 1450
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J4
+L Gouach_Controller-rescue:Conn_01x01-conn J4
 U 1 1 53FA5B6A
 P 9050 1300
 F 0 "J4" H 9130 1300 50  0000 L CNN
-F 1 "IN+" H 9050 1355 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_Pad_Via" H 9050 1300 60  0001 C CNN
+F 1 "BAT+" H 9050 1355 30  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 9050 1300 60  0001 C CNN
 F 3 "" H 9050 1300 60  0001 C CNN
 	1    9050 1300
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J6
+L Gouach_Controller-rescue:Conn_01x01-conn J6
 U 1 1 53FA5B71
 P 10250 2850
 F 0 "J6" H 10300 2850 50  0000 L CNN
-F 1 "MOTOR3" H 10250 2905 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad_Via" H 10250 2850 60  0001 C CNN
+F 1 "M1" H 10250 2905 30  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10250 2850 60  0001 C CNN
 F 3 "" H 10250 2850 60  0001 C CNN
 	1    10250 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J7
+L Gouach_Controller-rescue:Conn_01x01-conn J7
 U 1 1 53FA5B78
 P 10250 3000
 F 0 "J7" H 10300 3000 50  0000 L CNN
-F 1 "MOTOR2" H 10250 3055 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad_Via" H 10250 3000 60  0001 C CNN
+F 1 "M2" H 10250 3055 30  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10250 3000 60  0001 C CNN
 F 3 "" H 10250 3000 60  0001 C CNN
 	1    10250 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J8
+L Gouach_Controller-rescue:Conn_01x01-conn J8
 U 1 1 53FA5B7F
 P 10250 3550
 F 0 "J8" H 10300 3550 50  0000 L CNN
-F 1 "MOTOR1" H 10250 3605 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad_Via" H 10250 3550 60  0001 C CNN
+F 1 "M3" H 10250 3605 30  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10250 3550 60  0001 C CNN
 F 3 "" H 10250 3550 60  0001 C CNN
 	1    10250 3550
 	1    0    0    -1  
@@ -815,56 +815,56 @@ $EndSheet
 Text Notes 9750 1550 0    40   ~ 0
 Voltage supply (0 - 60v)\nNeeds external decoupling\ncaps to avoid high voltage\ntransients produced by the\ninductance of the battery\nwiring while switching the FETs\nAlso critical for EMI/RF compliance
 $Comp
-L Device:R R38
+L Gouach_Controller-rescue:R-Device R38
 U 1 1 53FC020B
 P 6150 6100
 F 0 "R38" V 6050 6100 50  0000 C CNN
 F 1 "100R" V 6150 6100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 6150 6100 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6150 6100 60  0001 C CNN
 F 3 "" H 6150 6100 60  0001 C CNN
 	1    6150 6100
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D2
+L Gouach_Controller-rescue:LED-Device D2
 U 1 1 53FC0212
 P 6550 6100
 F 0 "D2" H 6550 6000 50  0000 C CNN
 F 1 "RED" H 6550 6200 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 6550 6100 60  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6550 6100 60  0001 C CNN
 F 3 "" H 6550 6100 60  0001 C CNN
 	1    6550 6100
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R37
+L Gouach_Controller-rescue:R-Device R37
 U 1 1 53FC130C
 P 6150 5800
 F 0 "R37" V 6050 5800 50  0000 C CNN
 F 1 "100R" V 6150 5800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 6150 5800 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6150 5800 60  0001 C CNN
 F 3 "" H 6150 5800 60  0001 C CNN
 	1    6150 5800
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D3
+L Gouach_Controller-rescue:LED-Device D3
 U 1 1 53FC6A60
 P 6550 5500
 F 0 "D3" H 6550 5400 50  0000 C CNN
 F 1 "BLUE" H 6550 5600 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 6550 5500 60  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6550 5500 60  0001 C CNN
 F 3 "" H 6550 5500 60  0001 C CNN
 	1    6550 5500
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R22
+L Gouach_Controller-rescue:R-Device R22
 U 1 1 53FC6A67
 P 6150 5500
 F 0 "R22" V 6050 5500 50  0000 C CNN
 F 1 "2k2" V 6150 5500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 6150 5500 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6150 5500 60  0001 C CNN
 F 3 "" H 6150 5500 60  0001 C CNN
 	1    6150 5500
 	0    1    1    0   
@@ -996,12 +996,12 @@ Wire Notes Line
 Wire Notes Line
 	8650 1700 8650 1000
 $Comp
-L conn:Conn_01x02 J11
+L Gouach_Controller-rescue:Conn_01x02-conn J11
 U 1 1 540360D1
 P 1350 2850
 F 0 "J11" H 1350 2950 50  0000 C CNN
 F 1 "CAN" V 1450 2800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1350 2900 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1350 2900 60  0001 C CNN
 F 3 "" H 1350 2900 60  0000 C CNN
 	1    1350 2850
 	-1   0    0    -1  
@@ -1009,12 +1009,12 @@ $EndComp
 Wire Wire Line
 	2850 6400 3250 6400
 $Comp
-L Device:R_Shunt R53
+L Gouach_Controller-rescue:R_Shunt-Device R53
 U 1 1 53F93D66
 P 8450 4850
 F 0 "R53" V 8350 4850 50  0000 C CNN
 F 1 "1mR" V 8450 4850 50  0000 C CNN
-F 2 "Romain:WSLP2726" H 8450 4850 60  0001 C CNN
+F 2 "Gouach-Controller:WSLP2726" H 8450 4850 60  0001 C CNN
 F 3 "WSLP2726" H 8450 4850 60  0001 C CNN
 F 4 "WSLP2726" H 8450 4850 50  0001 C CNN "mfg#"
 	1    8450 4850
@@ -1052,7 +1052,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 1950 7250 1900
 $Comp
-L power:+BATT #PWR0101
+L Gouach_Controller-rescue:+BATT-power #PWR0101
 U 1 1 5F103621
 P 7250 1600
 F 0 "#PWR0101" H 7250 1450 50  0001 C CNN
@@ -1065,18 +1065,18 @@ $EndComp
 Wire Wire Line
 	9300 1450 9250 1450
 $Comp
-L Device:LED D1
+L Gouach_Controller-rescue:LED-Device D1
 U 1 1 53FC1313
 P 6550 5800
 F 0 "D1" H 6550 5700 50  0000 C CNN
 F 1 "GREEN" H 6550 5900 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 6550 5800 60  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6550 5800 60  0001 C CNN
 F 3 "" H 6550 5800 60  0001 C CNN
 	1    6550 5800
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR0105
+L Gouach_Controller-rescue:+3V3-power #PWR0105
 U 1 1 5F156A05
 P 5950 5450
 F 0 "#PWR0105" H 5950 5300 50  0001 C CNN
@@ -1087,7 +1087,7 @@ F 3 "" H 5950 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0107
+L Gouach_Controller-rescue:+5V-power #PWR0107
 U 1 1 5F1616E5
 P 1550 4200
 F 0 "#PWR0107" H 1550 4050 50  0001 C CNN
@@ -1098,7 +1098,7 @@ F 3 "" H 1550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0109
+L Gouach_Controller-rescue:+5V-power #PWR0109
 U 1 1 5F1602A3
 P 1550 3350
 F 0 "#PWR0109" H 1550 3200 50  0001 C CNN
@@ -1109,7 +1109,7 @@ F 3 "" H 1550 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L Gouach_Controller-rescue:GND-power #PWR0113
 U 1 1 5F1952F7
 P 6850 6150
 F 0 "#PWR0113" H 6850 5900 50  0001 C CNN
@@ -1120,7 +1120,7 @@ F 3 "" H 6850 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L Gouach_Controller-rescue:GND-power #PWR0115
 U 1 1 5F195E15
 P 8450 5050
 F 0 "#PWR0115" H 8450 4800 50  0001 C CNN
@@ -1131,7 +1131,7 @@ F 3 "" H 8450 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L Gouach_Controller-rescue:GND-power #PWR0118
 U 1 1 5F19739F
 P 8200 4100
 F 0 "#PWR0118" H 8200 3850 50  0001 C CNN
@@ -1142,7 +1142,7 @@ F 3 "" H 8200 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L Gouach_Controller-rescue:GND-power #PWR0119
 U 1 1 5F19778C
 P 9300 1450
 F 0 "#PWR0119" H 9300 1200 50  0001 C CNN
@@ -1153,7 +1153,7 @@ F 3 "" H 9300 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L Gouach_Controller-rescue:GND-power #PWR0120
 U 1 1 5F197FF7
 P 7250 1950
 F 0 "#PWR0120" H 7250 1700 50  0001 C CNN
@@ -1164,7 +1164,7 @@ F 3 "" H 7250 1950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0121
+L Gouach_Controller-rescue:GND-power #PWR0121
 U 1 1 5F198C15
 P 1550 2100
 F 0 "#PWR0121" H 1550 1850 50  0001 C CNN
@@ -1175,7 +1175,7 @@ F 3 "" H 1550 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
+L Gouach_Controller-rescue:GND-power #PWR0123
 U 1 1 5F199967
 P 1550 4400
 F 0 "#PWR0123" H 1550 4150 50  0001 C CNN
@@ -1186,7 +1186,7 @@ F 3 "" H 1550 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0124
+L Gouach_Controller-rescue:GND-power #PWR0124
 U 1 1 5F19975B
 P 1550 3550
 F 0 "#PWR0124" H 1550 3300 50  0001 C CNN
@@ -1197,7 +1197,7 @@ F 3 "" H 1550 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0125
+L Gouach_Controller-rescue:GND-power #PWR0125
 U 1 1 5F196E1B
 P 7950 4550
 F 0 "#PWR0125" H 7950 4300 50  0001 C CNN
@@ -1212,23 +1212,23 @@ Wire Wire Line
 Wire Wire Line
 	7250 1650 7250 1600
 $Comp
-L conn:Conn_01x06 J1
+L Gouach_Controller-rescue:Conn_01x06-conn J1
 U 1 1 522DA047
 P 1350 3550
 F 0 "J1" H 1350 3850 60  0000 C CNN
 F 1 "HALL/Encoder" V 1450 3500 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1350 3550 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1350 3550 60  0001 C CNN
 F 3 "" H 1350 3550 60  0001 C CNN
 	1    1350 3550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Gouach_Controller-rescue:C-Device C2
 U 1 1 522DA0B3
 P 6900 1900
 F 0 "C2" V 6850 1950 50  0000 L CNN
 F 1 "100nF" V 6850 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6900 1900 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6900 1900 60  0001 C CNN
 F 3 "" H 6900 1900 60  0001 C CNN
 F 4 "50V" H 6900 1900 50  0001 C CNN "Tension"
 	1    6900 1900
@@ -1278,12 +1278,12 @@ $EndSheet
 Wire Wire Line
 	1550 4300 3250 4300
 $Comp
-L conn:Conn_01x04 J12
+L Gouach_Controller-rescue:Conn_01x04-conn J12
 U 1 1 5E47FB07
 P 1350 6000
 F 0 "J12" H 1350 6200 50  0000 C CNN
 F 1 "Serial" V 1450 5950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1350 6050 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1350 6050 60  0001 C CNN
 F 3 "" H 1350 6050 60  0000 C CNN
 	1    1350 6000
 	-1   0    0    -1  
@@ -1293,7 +1293,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 6100 3250 6100
 $Comp
-L power:GND #PWR04
+L Gouach_Controller-rescue:GND-power #PWR04
 U 1 1 5E492EEB
 P 1550 6200
 F 0 "#PWR04" H 1550 5950 50  0001 C CNN
@@ -1304,7 +1304,7 @@ F 3 "" H 1550 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR03
+L Gouach_Controller-rescue:+5V-power #PWR03
 U 1 1 5E49342B
 P 1550 5900
 F 0 "#PWR03" H 1550 5750 50  0001 C CNN
@@ -1318,7 +1318,7 @@ Wire Wire Line
 	6550 1900 5800 1900
 Connection ~ 6550 1900
 $Comp
-L power:+5V #PWR01
+L Gouach_Controller-rescue:+5V-power #PWR01
 U 1 1 5E4B019E
 P 1550 4500
 F 0 "#PWR01" H 1550 4350 50  0001 C CNN
@@ -1329,7 +1329,7 @@ F 3 "" H 1550 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L Gouach_Controller-rescue:GND-power #PWR02
 U 1 1 5E4B0796
 P 1550 4900
 F 0 "#PWR02" H 1550 4650 50  0001 C CNN
@@ -1340,8 +1340,6 @@ F 3 "" H 1550 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1550 4700 3250 4700
-Wire Wire Line
 	1550 4600 3250 4600
 Wire Wire Line
 	1550 4800 3250 4800
@@ -1350,7 +1348,7 @@ PFS
 Text Label 2200 4800 0    40   ~ 0
 CRUISE
 $Comp
-L power:+5V #PWR05
+L Gouach_Controller-rescue:+5V-power #PWR05
 U 1 1 5E4E1CA3
 P 1550 5000
 F 0 "#PWR05" H 1550 4850 50  0001 C CNN
@@ -1361,7 +1359,7 @@ F 3 "" H 1550 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR06
+L Gouach_Controller-rescue:GND-power #PWR06
 U 1 1 5E4E213F
 P 1550 5300
 F 0 "#PWR06" H 1550 5050 50  0001 C CNN
@@ -1416,7 +1414,7 @@ $EndSheet
 Wire Wire Line
 	9250 1300 9300 1300
 $Comp
-L power:+BATT #PWR0103
+L Gouach_Controller-rescue:+BATT-power #PWR0103
 U 1 1 5F12FBAD
 P 9300 1300
 F 0 "#PWR0103" H 9300 1150 50  0001 C CNN
@@ -1431,23 +1429,23 @@ D+
 Text Label 1600 1900 0    50   ~ 0
 D-
 $Comp
-L Mechanical:MountingHole H1
+L Gouach_Controller-rescue:MountingHole-Mechanical H1
 U 1 1 5E45AB6C
 P 1450 7150
 F 0 "H1" H 1550 7196 50  0000 L CNN
 F 1 "MountingHole" H 1550 7105 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1450 7150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1450 7150 50  0001 C CNN
 F 3 "~" H 1450 7150 50  0001 C CNN
 	1    1450 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J10
+L Gouach_Controller-rescue:Conn_01x04-conn J10
 U 1 1 5E4E3243
 P 1350 1900
 F 0 "J10" H 1350 2100 50  0000 C CNN
 F 1 "USB" V 1450 1850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1350 1950 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1350 1950 60  0001 C CNN
 F 3 "" H 1350 1950 60  0000 C CNN
 	1    1350 1900
 	-1   0    0    -1  
@@ -1459,7 +1457,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 3800 1950 3800
 $Comp
-L power:VBUS #PWR0104
+L Gouach_Controller-rescue:VBUS-power #PWR0104
 U 1 1 5E5514CA
 P 1550 1800
 F 0 "#PWR0104" H 1550 1650 50  0001 C CNN
@@ -1470,18 +1468,18 @@ F 3 "" H 1550 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x07 J3
+L Gouach_Controller-rescue:Conn_01x07-conn J3
 U 1 1 5E552A33
 P 1350 5200
 F 0 "J3" H 1350 4800 60  0000 C CNN
 F 1 "Peripherals" V 1450 5150 60  0000 C CNN
-F 2 "Romain:TerminalBlock_Phoenix_MPT-2.54mm_7pol" H 1350 5200 60  0001 C CNN
+F 2 "Gouach-Controller:TerminalBlock_Phoenix_MPT-2.54mm_7pol" H 1350 5200 60  0001 C CNN
 F 3 "" H 1350 5200 60  0001 C CNN
 	1    1350 5200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L Gouach_Controller-rescue:GND-power #PWR0108
 U 1 1 5E554A00
 P 1550 5500
 F 0 "#PWR0108" H 1550 5250 50  0001 C CNN
@@ -1492,23 +1490,12 @@ F 3 "" H 1550 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x07 J2
-U 1 1 5E52A003
-P 1350 4500
-F 0 "J2" H 1350 4900 60  0000 C CNN
-F 1 "Peripherals" V 1450 4450 60  0000 C CNN
-F 2 "Romain:TerminalBlock_Phoenix_MPT-2.54mm_7pol" H 1350 4500 60  0001 C CNN
-F 3 "" H 1350 4500 60  0001 C CNN
-	1    1350 4500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:USBLC6-2SC6 U6
+L Gouach_Controller-rescue:USBLC6-2SC6-Power_Protection U6
 U 1 1 5E4EB6A7
 P 2400 1950
 F 0 "U6" H 2150 2300 50  0000 C CNN
 F 1 "USBLC6-2SC6" V 2650 1950 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 1650 2350 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 1650 2350 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 2600 2300 50  0001 C CNN
 	1    2400 1950
 	0    1    1    0   
@@ -1523,12 +1510,12 @@ F1 "GC - Temp_Sensor.sch" 50
 F2 "Temp" I R 2850 6400 60 
 $EndSheet
 $Comp
-L Device:R R46
+L Gouach_Controller-rescue:R-Device R46
 U 1 1 5E555038
 P 2950 5550
 F 0 "R46" V 2850 5550 50  0000 C CNN
 F 1 "100R" V 2950 5550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 2950 5550 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 5550 60  0001 C CNN
 F 3 "" H 2950 5550 60  0001 C CNN
 	1    2950 5550
 	0    1    1    0   
@@ -1545,7 +1532,7 @@ Connection ~ 2750 5650
 Wire Wire Line
 	2750 5650 2750 5550
 $Comp
-L power:GND #PWR011
+L Gouach_Controller-rescue:GND-power #PWR011
 U 1 1 5E564E4A
 P 3150 5750
 F 0 "#PWR011" H 3150 5500 50  0001 C CNN
@@ -1562,7 +1549,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 5850 2400 5850
 $Comp
-L power:VBUS #PWR010
+L Gouach_Controller-rescue:VBUS-power #PWR010
 U 1 1 5E51C46C
 P 2400 5450
 F 0 "#PWR010" H 2400 5300 50  0001 C CNN
@@ -1573,23 +1560,23 @@ F 3 "" H 2400 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:DMN3300U Q7
+L Gouach_Controller-rescue:DMN3300U-Transistor_FET Q7
 U 1 1 5E54BD0E
 P 2500 5650
 F 0 "Q7" H 2705 5696 50  0000 L CNN
 F 1 "DMN3300U" H 2705 5605 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 2700 5575 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2700 5575 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/ds31181.pdf" H 2500 5650 50  0001 L CNN
 	1    2500 5650
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R47
+L Gouach_Controller-rescue:R-Device R47
 U 1 1 5E555830
 P 2950 5750
 F 0 "R47" V 2850 5750 50  0000 C CNN
 F 1 "10k" V 2950 5750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 2950 5750 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 5750 60  0001 C CNN
 F 3 "" H 2950 5750 60  0001 C CNN
 	1    2950 5750
 	0    -1   -1   0   
@@ -1623,7 +1610,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2000 3250 2000
 $Comp
-L power:GND #PWR0111
+L Gouach_Controller-rescue:GND-power #PWR0111
 U 1 1 5E55D35F
 P 1900 1950
 F 0 "#PWR0111" H 1900 1700 50  0001 C CNN
@@ -1634,7 +1621,7 @@ F 3 "" H 1900 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR0112
+L Gouach_Controller-rescue:VBUS-power #PWR0112
 U 1 1 5E55D79F
 P 2900 1950
 F 0 "#PWR0112" H 2900 1800 50  0001 C CNN
@@ -1645,12 +1632,12 @@ F 3 "" H 2900 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Shunt R54
+L Gouach_Controller-rescue:R_Shunt-Device R54
 U 1 1 53F946AF
 P 7950 4350
 F 0 "R54" V 7850 4350 50  0000 C CNN
 F 1 "1mR" V 7950 4350 50  0000 C CNN
-F 2 "Romain:WSLP2726" H 7950 4350 60  0001 C CNN
+F 2 "Gouach-Controller:WSLP2726" H 7950 4350 60  0001 C CNN
 F 3 "WSLP2726" H 7950 4350 60  0001 C CNN
 F 4 "WSLP2726" H 7950 4350 50  0001 C CNN "mfg#"
 	1    7950 4350
@@ -1688,4 +1675,17 @@ Wire Wire Line
 	1800 3650 1800 3600
 Wire Wire Line
 	1800 3600 1950 3600
+Wire Wire Line
+	1550 4700 3250 4700
+$Comp
+L Gouach_Controller-rescue:Conn_01x07-conn J2
+U 1 1 5E52A003
+P 1350 4500
+F 0 "J2" H 1350 4900 60  0000 C CNN
+F 1 "Peripherals" V 1450 4450 60  0000 C CNN
+F 2 "Gouach-Controller:TerminalBlock_Phoenix_MPT-2.54mm_7pol" H 1350 4500 60  0001 C CNN
+F 3 "" H 1350 4500 60  0001 C CNN
+	1    1350 4500
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

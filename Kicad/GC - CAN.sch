@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_CAN_LIN:SN65HVD232 U4
+L Gouach_Controller-rescue:SN65HVD232-Interface_CAN_LIN U4
 U 1 1 53F59F90
 P 5850 4050
 AR Path="/53FFB6E1/53F59F90" Ref="U4"  Part="1" 
 AR Path="/53F826DC/53F59F90" Ref="U4"  Part="1" 
 F 0 "U4" H 6100 4300 50  0000 C CNN
 F 1 "SN65HVD232" H 5900 3700 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5850 4050 35  0001 C CIN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5850 4050 35  0001 C CIN
 F 3 "SN65HVD232" H 5850 4050 60  0001 C CNN
 F 4 "SN65HVD232" H 5850 4050 50  0001 C CNN "mfg#"
 	1    5850 4050
@@ -32,12 +32,12 @@ CAN_RX
 Text HLabel 6300 3950 2    60   Input ~ 0
 CAN_TX
 $Comp
-L Device:R R16
+L Gouach_Controller-rescue:R-Device R16
 U 1 1 540030A8
 P 5200 4100
 F 0 "R16" V 5100 4100 50  0000 C CNN
 F 1 "120R" V 5200 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5130 4100 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 4100 30  0001 C CNN
 F 3 "" H 5200 4100 30  0000 C CNN
 	1    5200 4100
 	1    0    0    -1  
@@ -65,7 +65,7 @@ Connection ~ 5200 4250
 Wire Wire Line
 	5200 4250 5350 4250
 $Comp
-L power:+3V3 #PWR0128
+L Gouach_Controller-rescue:+3V3-power #PWR0128
 U 1 1 5F16972D
 P 7200 3950
 F 0 "#PWR0128" H 7200 3800 50  0001 C CNN
@@ -76,7 +76,7 @@ F 3 "" H 7200 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0129
+L Gouach_Controller-rescue:+3V3-power #PWR0129
 U 1 1 5F169DDB
 P 5850 3750
 F 0 "#PWR0129" H 5850 3600 50  0001 C CNN
@@ -87,7 +87,7 @@ F 3 "" H 5850 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0130
+L Gouach_Controller-rescue:GND-power #PWR0130
 U 1 1 5F19E154
 P 5850 4450
 F 0 "#PWR0130" H 5850 4200 50  0001 C CNN
@@ -98,7 +98,7 @@ F 3 "" H 5850 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0132
+L Gouach_Controller-rescue:GND-power #PWR0132
 U 1 1 5F19EFD3
 P 7200 4250
 F 0 "#PWR0132" H 7200 4000 50  0001 C CNN
@@ -109,14 +109,14 @@ F 3 "" H 7200 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L Gouach_Controller-rescue:C-Device C4
 U 1 1 53F59FA3
 P 7200 4100
 AR Path="/53F59FA3" Ref="C4"  Part="1" 
 AR Path="/53FFB6E1/53F59FA3" Ref="C4"  Part="1" 
 F 0 "C4" H 7200 4200 50  0000 L CNN
 F 1 "100nF" H 7206 4015 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7238 3950 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7238 3950 30  0001 C CNN
 F 3 "" H 7200 4100 60  0000 C CNN
 F 4 "50V" H 7200 4100 50  0001 C CNN "Tension"
 	1    7200 4100

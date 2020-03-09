@@ -14,78 +14,78 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R18
+L Gouach_Controller-rescue:R-Device R18
 U 1 1 53FBB581
 P 4900 3250
 F 0 "R18" V 4850 3450 50  0000 C CNN
 F 1 "10k" V 4900 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 4900 3250 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 3250 60  0001 C CNN
 F 3 "" H 4900 3250 60  0001 C CNN
 	1    4900 3250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R25
+L Gouach_Controller-rescue:R-Device R25
 U 1 1 53FBB588
 P 5550 3750
 F 0 "R25" V 5500 3950 50  0000 C CNN
 F 1 "10k" V 5550 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5550 3750 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 3750 60  0001 C CNN
 F 3 "" H 5550 3750 60  0001 C CNN
 	1    5550 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R24
+L Gouach_Controller-rescue:R-Device R24
 U 1 1 53FBB58F
 P 5550 3650
 F 0 "R24" V 5500 3850 50  0000 C CNN
 F 1 "10k" V 5550 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5550 3650 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 3650 60  0001 C CNN
 F 3 "" H 5550 3650 60  0001 C CNN
 	1    5550 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R23
+L Gouach_Controller-rescue:R-Device R23
 U 1 1 53FBB596
 P 5550 3550
 F 0 "R23" V 5500 3750 50  0000 C CNN
 F 1 "10k" V 5550 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5550 3550 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 3550 60  0001 C CNN
 F 3 "" H 5550 3550 60  0001 C CNN
 	1    5550 3550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R19
+L Gouach_Controller-rescue:R-Device R19
 U 1 1 53FBB5B8
 P 5000 3250
 F 0 "R19" V 4950 3450 50  0000 C CNN
 F 1 "2k2" V 5000 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5000 3250 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 3250 60  0001 C CNN
 F 3 "" H 5000 3250 60  0001 C CNN
 	1    5000 3250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R20
+L Gouach_Controller-rescue:R-Device R20
 U 1 1 53FBB5BF
 P 5100 3250
 F 0 "R20" V 5050 3450 50  0000 C CNN
 F 1 "2k2" V 5100 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5100 3250 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 3250 60  0001 C CNN
 F 3 "" H 5100 3250 60  0001 C CNN
 	1    5100 3250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R21
+L Gouach_Controller-rescue:R-Device R21
 U 1 1 53FBB5C6
 P 5200 3250
 F 0 "R21" V 5150 3450 50  0000 C CNN
 F 1 "2k2" V 5200 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5200 3250 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 3250 60  0001 C CNN
 F 3 "" H 5200 3250 60  0001 C CNN
 	1    5200 3250
 	-1   0    0    1   
@@ -143,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 3750 5400 3750
 $Comp
-L power:+3V3 #PWR0133
+L Gouach_Controller-rescue:+3V3-power #PWR0133
 U 1 1 5F16B2C2
 P 5050 2950
 F 0 "#PWR0133" H 5050 2800 50  0001 C CNN
@@ -161,14 +161,14 @@ Wire Wire Line
 Wire Wire Line
 	5550 3850 5550 4050
 $Comp
-L Device:C C5
+L Gouach_Controller-rescue:C-Device C5
 U 1 1 53FBB5CD
 P 5550 4200
 AR Path="/53FBB5CD" Ref="C5"  Part="1" 
 AR Path="/53FBA77E/53FBB5CD" Ref="C5"  Part="1" 
 F 0 "C5" H 5600 4300 50  0000 L CNN
 F 1 "4.7nF" H 5600 4100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5550 4200 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5550 4200 60  0001 C CNN
 F 3 "" H 5550 4200 60  0001 C CNN
 F 4 "6.3V" H 5550 4200 50  0001 C CNN "Tension"
 	1    5550 4200
@@ -189,49 +189,49 @@ Wire Wire Line
 Wire Wire Line
 	6300 3750 6300 4050
 $Comp
-L Device:C C8
+L Gouach_Controller-rescue:C-Device C8
 U 1 1 53FBB5AB
 P 6300 4200
 AR Path="/53FBB5AB" Ref="C8"  Part="1" 
 AR Path="/53FBA77E/53FBB5AB" Ref="C8"  Part="1" 
 F 0 "C8" H 6350 4300 50  0000 L CNN
 F 1 "4.7nF" H 6350 4100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6300 4200 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6300 4200 60  0001 C CNN
 F 3 "" H 6300 4200 60  0001 C CNN
 F 4 "6.3V" H 6300 4200 50  0001 C CNN "Tension"
 	1    6300 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Gouach_Controller-rescue:C-Device C7
 U 1 1 53FBB5A4
 P 6050 4200
 AR Path="/53FBB5A4" Ref="C7"  Part="1" 
 AR Path="/53FBA77E/53FBB5A4" Ref="C7"  Part="1" 
 F 0 "C7" H 6100 4300 50  0000 L CNN
 F 1 "4.7nF" H 6100 4100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6050 4200 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6050 4200 60  0001 C CNN
 F 3 "" H 6050 4200 60  0001 C CNN
 F 4 "6.3V" H 6050 4200 50  0001 C CNN "Tension"
 	1    6050 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L Gouach_Controller-rescue:C-Device C6
 U 1 1 53FBB59D
 P 5800 4200
 AR Path="/53FBB59D" Ref="C6"  Part="1" 
 AR Path="/53FBA77E/53FBB59D" Ref="C6"  Part="1" 
 F 0 "C6" H 5850 4300 50  0000 L CNN
 F 1 "4.7nF" H 5850 4100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5800 4200 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5800 4200 60  0001 C CNN
 F 3 "" H 5800 4200 60  0001 C CNN
 F 4 "6.3V" H 5800 4200 50  0001 C CNN "Tension"
 	1    5800 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0134
+L Gouach_Controller-rescue:GND-power #PWR0134
 U 1 1 5F1A33CA
 P 5550 4350
 F 0 "#PWR0134" H 5550 4100 50  0001 C CNN
@@ -242,7 +242,7 @@ F 3 "" H 5550 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0135
+L Gouach_Controller-rescue:GND-power #PWR0135
 U 1 1 5F1A3BC9
 P 5800 4350
 F 0 "#PWR0135" H 5800 4100 50  0001 C CNN
@@ -253,7 +253,7 @@ F 3 "" H 5800 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0136
+L Gouach_Controller-rescue:GND-power #PWR0136
 U 1 1 5F1A3EAF
 P 6050 4350
 F 0 "#PWR0136" H 6050 4100 50  0001 C CNN
@@ -264,7 +264,7 @@ F 3 "" H 6050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0137
+L Gouach_Controller-rescue:GND-power #PWR0137
 U 1 1 5F1A42A0
 P 6300 4350
 F 0 "#PWR0137" H 6300 4100 50  0001 C CNN
